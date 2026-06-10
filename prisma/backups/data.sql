@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict avyAC7fuBa0VYghcnbqI4EX1iCl7YqiBtWMS6mArLEwS0WDr8bdgHoODYgS6nFM
+-- \restrict yMSW9tlHP2ykqRs25etlyqL5nyFaZsEVytzZ0keFa8MuGRsMDdgciDVFzBZB4fx
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -65,7 +65,7 @@ COPY "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_pas
 00000000-0000-0000-0000-000000000000	6de5193a-a447-40bc-a6c2-436a65f9a673	authenticated	authenticated	bla@gmail.com	$2a$10$5C992fc8o1.6PPgO83r/cOMD2w5PvDAwh3FdY/jGXOXFJqPOnZuVO	2026-05-27 08:23:06.180988+00	\N		\N		\N			\N	2026-05-27 08:23:06.874864+00	{"provider": "email", "providers": ["email"]}	{"sub": "6de5193a-a447-40bc-a6c2-436a65f9a673", "email": "bla@gmail.com", "email_verified": true, "phone_verified": false}	\N	2026-05-27 08:23:06.168911+00	2026-05-27 08:23:06.876973+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	014a1eaf-a745-426b-adef-803fe707aba9	authenticated	authenticated	shaned@digital400.com	$2a$10$/NbUnTLXEkzM/fWpxHHg5uDEkXrnP4no3SU9xcbrXQo5G5qf/ZZKW	2026-05-27 08:50:23.580663+00	\N		\N		\N			\N	2026-05-27 08:50:24.331484+00	{"provider": "email", "providers": ["email"]}	{"sub": "014a1eaf-a745-426b-adef-803fe707aba9", "email": "shaned@digital400.com", "email_verified": true, "phone_verified": false}	\N	2026-05-27 08:50:23.565535+00	2026-05-27 08:50:24.334487+00	\N	\N			\N		0	\N		\N	f	\N	f
 00000000-0000-0000-0000-000000000000	655fd0dd-e45a-4b6b-8591-5cebe2485179	authenticated	authenticated	test1@gmail.com	$2a$10$WZog3qCqyIKzMu4eJ3Xk5OrERFuoh67g3mFneTQUsgOCOZvB3uvL6	2026-05-27 09:20:01.330596+00	\N		\N		\N			\N	2026-05-27 09:20:02.084563+00	{"provider": "email", "providers": ["email"]}	{"sub": "655fd0dd-e45a-4b6b-8591-5cebe2485179", "email": "test1@gmail.com", "email_verified": true, "phone_verified": false}	\N	2026-05-27 09:20:01.300022+00	2026-05-27 09:20:02.08665+00	\N	\N			\N		0	\N		\N	f	\N	f
-00000000-0000-0000-0000-000000000000	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	authenticated	authenticated	vimukthi5859@gmail.com	$2a$10$f2ZSRl4eP.aK12kk6xu2tewg1C7hrkNaGjjkSNbHlU9DPm8tayl2i	2026-05-27 05:28:53.777268+00	\N		2026-05-27 05:28:37.374344+00		\N			\N	2026-05-29 19:54:25.071008+00	{"provider": "email", "providers": ["email"]}	{"sub": "ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c", "email": "vimukthi5859@gmail.com", "email_verified": true, "phone_verified": false}	\N	2026-05-27 05:28:37.343834+00	2026-06-01 04:49:31.96776+00	\N	\N			\N		0	\N		\N	f	\N	f
+00000000-0000-0000-0000-000000000000	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	authenticated	authenticated	vimukthi5859@gmail.com	$2a$10$f2ZSRl4eP.aK12kk6xu2tewg1C7hrkNaGjjkSNbHlU9DPm8tayl2i	2026-05-27 05:28:53.777268+00	\N		2026-05-27 05:28:37.374344+00		\N			\N	2026-05-29 19:54:25.071008+00	{"provider": "email", "providers": ["email"]}	{"sub": "ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c", "email": "vimukthi5859@gmail.com", "email_verified": true, "phone_verified": false}	\N	2026-05-27 05:28:37.343834+00	2026-06-09 04:22:33.465859+00	\N	\N			\N		0	\N		\N	f	\N	f
 \.
 
 
@@ -124,7 +124,7 @@ b22ba11a-5e56-4eb6-b006-fce74dc96cf4	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	2026-0
 ee24193b-d2bf-4a12-b93f-614f32439605	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	2026-05-27 06:38:04.476734+00	2026-05-29 19:23:23.907654+00	\N	aal1	\N	2026-05-29 19:23:23.905958	node	167.172.69.115	\N	\N	\N	\N	\N
 02e29cf6-5ff1-4425-a92b-d06abd1ae0ac	7ef4cf72-d744-48be-a311-1c1f9edbbdfc	2026-05-27 06:25:20.766042+00	2026-05-29 19:48:01.748428+00	\N	aal1	\N	2026-05-29 19:48:01.748337	node	167.172.69.115	\N	\N	\N	\N	\N
 d9638496-9359-4451-b2fc-f79a142561b0	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	2026-05-29 19:54:25.072408+00	2026-05-29 19:54:25.072408+00	\N	aal1	\N	\N	node	54.158.170.148	\N	\N	\N	\N	\N
-ac612069-4496-4767-bec7-b21be511852a	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	2026-05-27 07:57:12.363498+00	2026-06-01 04:49:34.312243+00	\N	aal1	\N	2026-06-01 04:49:34.312151	node	18.138.233.54	\N	\N	\N	\N	\N
+ac612069-4496-4767-bec7-b21be511852a	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	2026-05-27 07:57:12.363498+00	2026-06-09 04:22:33.479851+00	\N	aal1	\N	2026-06-09 04:22:33.479726	node	13.218.224.55	\N	\N	\N	\N	\N
 \.
 
 
@@ -226,7 +226,8 @@ COPY "auth"."refresh_tokens" ("instance_id", "id", "token", "user_id", "revoked"
 00000000-0000-0000-0000-000000000000	27	dnnjwziqlu6b	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	t	2026-05-27 13:40:44.870462+00	2026-05-29 19:52:51.379824+00	6vd5mrbkkrik	ac612069-4496-4767-bec7-b21be511852a
 00000000-0000-0000-0000-000000000000	31	wkl25f6gi5xw	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	f	2026-05-29 19:54:25.094059+00	2026-05-29 19:54:25.094059+00	\N	d9638496-9359-4451-b2fc-f79a142561b0
 00000000-0000-0000-0000-000000000000	30	uotreefk3tz2	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	t	2026-05-29 19:52:51.386443+00	2026-06-01 04:49:31.959516+00	dnnjwziqlu6b	ac612069-4496-4767-bec7-b21be511852a
-00000000-0000-0000-0000-000000000000	32	yjpy2k3y44jw	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	f	2026-06-01 04:49:31.965946+00	2026-06-01 04:49:31.965946+00	uotreefk3tz2	ac612069-4496-4767-bec7-b21be511852a
+00000000-0000-0000-0000-000000000000	32	yjpy2k3y44jw	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	t	2026-06-01 04:49:31.965946+00	2026-06-09 04:22:33.429064+00	uotreefk3tz2	ac612069-4496-4767-bec7-b21be511852a
+00000000-0000-0000-0000-000000000000	33	kfztuqjfrpau	ae1bb136-8e7e-4a3a-ba83-2be2dac1b02c	f	2026-06-09 04:22:33.454465+00	2026-06-09 04:22:33.454465+00	yjpy2k3y44jw	ac612069-4496-4767-bec7-b21be511852a
 \.
 
 
@@ -390,7 +391,7 @@ COPY "storage"."vector_indexes" ("id", "name", "bucket_id", "data_type", "dimens
 -- Name: refresh_tokens_id_seq; Type: SEQUENCE SET; Schema: auth; Owner: supabase_auth_admin
 --
 
-SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 32, true);
+SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 33, true);
 
 
 --
@@ -404,6 +405,6 @@ SELECT pg_catalog.setval('"drizzle"."__drizzle_migrations_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict avyAC7fuBa0VYghcnbqI4EX1iCl7YqiBtWMS6mArLEwS0WDr8bdgHoODYgS6nFM
+-- \unrestrict yMSW9tlHP2ykqRs25etlyqL5nyFaZsEVytzZ0keFa8MuGRsMDdgciDVFzBZB4fx
 
 RESET ALL;
