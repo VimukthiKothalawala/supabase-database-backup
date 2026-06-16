@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ka6YXNwPk7STL2EGiKVk0bh6VDpjx8300coYarZkTU6VuyyZMKy9cSPQYL4PePt
+-- \restrict JtHybngUydfN1KvS8bWyQVFx7Amg0uTneKYh5hoG5vqBkYSYCoOl47nZotTAcay
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -405,6 +405,6 @@ SELECT pg_catalog.setval('"drizzle"."__drizzle_migrations_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ka6YXNwPk7STL2EGiKVk0bh6VDpjx8300coYarZkTU6VuyyZMKy9cSPQYL4PePt
+-- \unrestrict JtHybngUydfN1KvS8bWyQVFx7Amg0uTneKYh5hoG5vqBkYSYCoOl47nZotTAcay
 
 RESET ALL;
